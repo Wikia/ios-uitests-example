@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3844FC792CD8F4047B15CDB6 /* Pods_UITestsExampleTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A32EC46403B8F63301A6E0B /* Pods_UITestsExampleTestApp.framework */; };
 		B55035FD2539DC0A008B1476 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55035FC2539DC0A008B1476 /* AppDelegate.swift */; };
 		B55036012539DC0A008B1476 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55036002539DC0A008B1476 /* ViewController.swift */; };
 		B55036042539DC0A008B1476 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55036022539DC0A008B1476 /* Main.storyboard */; };
@@ -61,9 +60,6 @@
 /* Begin PBXFileReference section */
 		23F0E043D7A6516539BBB79A /* Pods-UITestsExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITestsExampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-UITestsExampleUITests/Pods-UITestsExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		467777CD62B7480A9EA431A8 /* Pods-UITestsExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITestsExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-UITestsExampleUITests/Pods-UITestsExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
-		5A32EC46403B8F63301A6E0B /* Pods_UITestsExampleTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UITestsExampleTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93BC6E0D0E9EC76410A528D8 /* Pods-UITestsExampleTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITestsExampleTestApp.release.xcconfig"; path = "Target Support Files/Pods-UITestsExampleTestApp/Pods-UITestsExampleTestApp.release.xcconfig"; sourceTree = "<group>"; };
-		A7A46F4BC0489279B719822D /* Pods-UITestsExampleTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITestsExampleTestApp.debug.xcconfig"; path = "Target Support Files/Pods-UITestsExampleTestApp/Pods-UITestsExampleTestApp.debug.xcconfig"; sourceTree = "<group>"; };
 		B55035F92539DC0A008B1476 /* UITestsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITestsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B55035FC2539DC0A008B1476 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B55036002539DC0A008B1476 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +80,7 @@
 		B55036612539E408008B1476 /* TrackerDouble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerDouble.swift; sourceTree = "<group>"; };
 		B55036662539E4E8008B1476 /* TrackingVerifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingVerifier.swift; sourceTree = "<group>"; };
 		B550367E2539E53E008B1476 /* UITestsExampleTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITestsExampleTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55245042549B3A500204399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B572D44725400FC800DF34F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F81EBB3996B397A12401095C /* Pods_UITestsExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UITestsExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -115,7 +112,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3844FC792CD8F4047B15CDB6 /* Pods_UITestsExampleTestApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,8 +123,6 @@
 			children = (
 				23F0E043D7A6516539BBB79A /* Pods-UITestsExampleUITests.debug.xcconfig */,
 				467777CD62B7480A9EA431A8 /* Pods-UITestsExampleUITests.release.xcconfig */,
-				A7A46F4BC0489279B719822D /* Pods-UITestsExampleTestApp.debug.xcconfig */,
-				93BC6E0D0E9EC76410A528D8 /* Pods-UITestsExampleTestApp.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -137,7 +131,6 @@
 			isa = PBXGroup;
 			children = (
 				F81EBB3996B397A12401095C /* Pods_UITestsExampleUITests.framework */,
-				5A32EC46403B8F63301A6E0B /* Pods_UITestsExampleTestApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -175,7 +168,6 @@
 				B55036022539DC0A008B1476 /* Main.storyboard */,
 				B55036052539DC0B008B1476 /* Assets.xcassets */,
 				B55036072539DC0B008B1476 /* LaunchScreen.storyboard */,
-				B550360A2539DC0B008B1476 /* Info.plist */,
 			);
 			path = UITestsExample;
 			sourceTree = "<group>";
@@ -214,6 +206,7 @@
 			children = (
 				B550365C2539E3B4008B1476 /* Tracker.swift */,
 				B55035FC2539DC0A008B1476 /* AppDelegate.swift */,
+				B55245042549B3A500204399 /* Info.plist */,
 			);
 			path = MainApp;
 			sourceTree = "<group>";
@@ -221,6 +214,7 @@
 		B572D44225400F8B00DF34F6 /* TestApp */ = {
 			isa = PBXGroup;
 			children = (
+				B550360A2539DC0B008B1476 /* Info.plist */,
 				B55036612539E408008B1476 /* TrackerDouble.swift */,
 				B572D44725400FC800DF34F6 /* AppDelegate.swift */,
 			);
@@ -290,11 +284,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B550367B2539E53E008B1476 /* Build configuration list for PBXNativeTarget "UITestsExampleTestApp" */;
 			buildPhases = (
-				7F005CAEF8B7BE9104A56EC0 /* [CP] Check Pods Manifest.lock */,
 				B550366C2539E53E008B1476 /* Sources */,
 				B55036762539E53E008B1476 /* Frameworks */,
 				B55036772539E53E008B1476 /* Resources */,
-				407520365BD2451340548BA3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -402,45 +394,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-UITestsExampleUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		407520365BD2451340548BA3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-UITestsExampleTestApp/Pods-UITestsExampleTestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-UITestsExampleTestApp/Pods-UITestsExampleTestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UITestsExampleTestApp/Pods-UITestsExampleTestApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7F005CAEF8B7BE9104A56EC0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-UITestsExampleTestApp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -675,7 +628,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LW86FQS96L;
-				INFOPLIST_FILE = UITestsExample/Info.plist;
+				INFOPLIST_FILE = UITestsExample/MainApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -694,7 +647,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LW86FQS96L;
-				INFOPLIST_FILE = UITestsExample/Info.plist;
+				INFOPLIST_FILE = UITestsExample/MainApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -794,18 +747,17 @@
 		};
 		B550367C2539E53E008B1476 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7A46F4BC0489279B719822D /* Pods-UITestsExampleTestApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LW86FQS96L;
-				INFOPLIST_FILE = UITestsExample/Info.plist;
+				INFOPLIST_FILE = UITestsExample/TestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fandom.UITestsExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fandom.UITestsExampleTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -814,18 +766,17 @@
 		};
 		B550367D2539E53E008B1476 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93BC6E0D0E9EC76410A528D8 /* Pods-UITestsExampleTestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LW86FQS96L;
-				INFOPLIST_FILE = UITestsExample/Info.plist;
+				INFOPLIST_FILE = UITestsExample/TestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fandom.UITestsExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fandom.UITestsExampleTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

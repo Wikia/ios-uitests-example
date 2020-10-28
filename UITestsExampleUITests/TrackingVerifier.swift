@@ -73,6 +73,6 @@ class TrackingVerifier {
             self?.events.contains(event) == true
         }
         let expectation = testCase.expectation(for: predicate, evaluatedWith: self, handler: nil)
-        testCase.wait(for: [expectation], timeout: 10.0)
+        testCase.wait(for: [expectation], timeout: 5.0)
     }
 }
