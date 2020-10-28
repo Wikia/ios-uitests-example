@@ -11,21 +11,22 @@ class UITestsExampleUITests: XCTestCase {
 
     private lazy var trackingVerifier = TrackingVerifier(with: self)
     
-    override func setUpWithError() throws {
-        try super.setUpWithError()
+    override func setUp() {
+        super.setUp()
         continueAfterFailure = false
         trackingVerifier.start()
     }
 
     override func tearDownWithError() throws {
         trackingVerifier.stop()
-        try super.tearDownWithError()
+        super.tearDown()
     }
 
     func testTapButton1() throws {
         // Given
         let app = XCUIApplication()
         app.launch()
+        trackingVerifier.start()
         let expectedEvent = TrackingEvent(name: "button_tapped", params: [
             .eventName: "button1_tapped",
             .screen: "main_screen",
